@@ -1,5 +1,7 @@
 # design-systems-e01
 
+School project
+
 ## Project setup
 ```
 yarn install
