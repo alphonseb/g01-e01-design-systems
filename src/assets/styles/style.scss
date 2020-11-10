@@ -1,0 +1,9 @@
+:root {
+    --red: red;
+}
+
+@mixin text-body {
+    font-size: 32px;
+}
+
+$blue: blue;

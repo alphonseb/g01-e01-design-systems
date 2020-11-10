@@ -1,0 +1,4 @@
+.hello {
+    @include text-body;
+    color: $blue;
+}
