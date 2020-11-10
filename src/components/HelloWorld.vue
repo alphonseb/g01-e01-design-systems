@@ -8,7 +8,7 @@
         >vue-cli documentation</a
       >.
     </p>
-    <h3>Installed CLI Plugins</h3>
+    <sp-text tag="h1">La folie</sp-text>
     <ul>
       <li>
         <a
@@ -87,10 +87,14 @@
 </template>
 
 <script>
+import SpText from "@/components/01_atoms/SpText/SpText.vue";
 export default {
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  components: {
+    SpText
   }
 };
 </script>
