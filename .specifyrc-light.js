@@ -37,6 +37,40 @@ module.exports = {
                     }
                 }
             ]
+        },
+        {
+            path: "src/assets/styles/01-utils/variables/_measurements.scss",
+            filter: {
+                types: [
+                    "measurement"
+                ]
+            },
+            parsers: [
+                {
+                    name: "kebabcasify",
+                    options: {
+                        keys: [
+                            "name"
+                        ]
+                    }
+                },
+                {
+                    name: "sort-by",
+                    options: {
+                        keys: [
+                            "name"
+                        ]
+                    }
+                },
+                {
+                    name: "to-css-custom-properties",
+                    options: {
+                        formatConfig: {
+                            selector: ":root"
+                        }
+                    }
+                }
+            ]
         }
     ]
 }

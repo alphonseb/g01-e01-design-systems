@@ -6,8 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "sync": "specify sync -C .specifyrc.js",
-    "extract": "specify extract -C .specifyrc.js"
+    "sync": "specify sync -C .specifyrc-light.js && specify sync -C .specifyrc-bark.js",
+    "extract": "specify extract -C .specifyrc-light.js && specify extract -C .specifyrc-bark.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
