@@ -1,19 +1,22 @@
 <template>
   <div class="home">
-    <h2>Test</h2>
-    <img alt="Vue logo" src="../assets/images/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+    <login-form />
+    <woof-button buttonTitle="settings" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+// import HelloWorld from "@/components/HelloWorld.vue";
+import LoginForm from "@/components/03_organisms/LoginForm/LoginForm.vue";
+import WoofButton from "@/components/02_molecules/WoofButton/WoofButton.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    LoginForm,
+    WoofButton
   }
 };
 </script>
