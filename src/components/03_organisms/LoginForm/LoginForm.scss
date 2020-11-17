@@ -6,6 +6,7 @@
     --border-width: var(--default-border-width);
     --padding: var(--base-space-3);
     --margin: var(--base-space-1);
+    --big-margin: var(--base-space-3);
     
     background-color: var(--background-color);
     
@@ -24,7 +25,7 @@
         }
         
         & > div:not(:last-child) {
-            margin-bottom: var(--margin);
+            margin-bottom: var(--big-margin);
         }
     }
     

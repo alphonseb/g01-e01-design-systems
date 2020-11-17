@@ -4,7 +4,7 @@
       <form-field label="e-mail" input-type="email" />
       <form-field label="full name" />
     </div>
-    <woof-button button-title="save" />
+    <woof-button button-title="save" icon="save" />
   </div>
 </template>
 
