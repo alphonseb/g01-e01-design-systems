@@ -1,13 +1,13 @@
 <template>
   <div class="m-form-field">
     <woof-text tag="label" type="small-l">{{ label }}</woof-text>
-    <text-input :input-type="inputType" />
+    <text-input :type="inputType" />
   </div>
 </template>
 
 <script>
 import WoofText from "@/components/01_atoms/WoofText/WoofText.vue";
-import TextInput from "@/components/01_atoms/TextInput/TextInput.vue";
+import TextInput from "@/components/02_molecules/TextInput/TextInput.vue";
 export default {
   name: "FormField",
   components: {
