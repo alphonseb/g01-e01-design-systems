@@ -1,0 +1,27 @@
+.m-button {
+    --padding: var(--base-space-2);
+    --background-color: var(--color-button-default-surface);
+    --text-color: var(--color-secondary-text);
+    --text-color-accent: var(--color-default-accent);
+    --border-radius: var(--default-radius);
+    --border-top-right-radius: var(--medium-radius);
+    --border-left-color: var(--color-default-accent);
+    --border-left-width: var(--medium-border-width);
+
+    padding: var(--padding);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-radius: var(--border-radius);
+    border-top-right-radius: var(--border-top-right-radius);
+    width: 100%;
+    border: none;
+    border-left: solid var(--background-color) var(--border-left-width);
+    text-transform: capitalize;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        border-left: solid var(--border-left-color) var(--border-left-width);
+        color: var(--text-color-accent);
+    }
+}
