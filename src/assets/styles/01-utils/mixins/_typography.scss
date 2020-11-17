@@ -5,46 +5,46 @@
 //     line-height: 1.25;
 // }
 
-@mixin font-family {
-    font-family: Raleway, sans-serif;
+:root {
+    --font-primary: Raleway, sans-serif;
 }
 
 @mixin text-body-m {
-    @include font-family;
-    font-size: 16px;
+    font-family: var(--font-primary);
+    font-size: 1rem;
     line-height: 140%;
     font-weight: 400;
 }
 
 @mixin text-body-l {
-    @include font-family;
+    font-family: var(--font-primary);
     @include text-body-m;
     font-weight: 700;
 }
 
 @mixin text-small-l {
-    @include font-family;
-    font-size: 12px;
+    font-family: var(--font-primary);
+    font-size: 0.75rem;
     text-transform: uppercase;
     font-weight: 700;
 }
 
 
 @mixin text-title-m {
-    @include font-family;
-    font-size: 32px;
+    font-family: var(--font-primary);
+    font-size: 2rem;
     font-weight: 700;
 }
 
 @mixin text-title-l {
-    @include font-family;
-    font-size: 48px;
+    font-family: var(--font-primary);
+    font-size: 3rem;
     font-weight: 700;
 }
 
 @mixin text-input {
-    @include font-family;
-    font-size: 14px;
+    font-family: var(--font-primary);
+    font-size: 0.875rem;
     line-height: 140%;
     font-weight: normal;
 }
