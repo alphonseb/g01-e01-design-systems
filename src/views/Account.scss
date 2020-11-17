@@ -1,0 +1,27 @@
+.account {
+    --title-color: var(--color-primary-text);
+    --title-margin: var(--base-space-7);
+    --form-margin: var(--base-space-5);
+    --padding-vertical: var(--base-space-13);
+    --padding-horizontal: var(--base-space-18);
+    
+    &__main-wrapper {
+        padding: var(--padding-vertical) var(--padding-horizontal);
+    }
+    
+    
+    &__title {
+        color: var(--title-color);
+        margin-bottom: var(--title-margin);
+    }
+    
+    &__form {
+        margin-bottom: var(--form-margin);
+    }
+    
+    &__paws {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
