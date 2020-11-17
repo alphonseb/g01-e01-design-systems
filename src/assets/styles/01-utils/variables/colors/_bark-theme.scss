@@ -1,11 +1,13 @@
 :root[data-theme="bark"] {
   /* COLOR */
   --color-alert-accent: rgb(246, 79, 79);
+  --color-alert-border: rgb(80, 63, 63);
   --color-alert-surface: rgb(62, 53, 53);
   --color-background: rgb(31, 30, 29);
   --color-button-alert-surface: rgb(80, 63, 63);
   --color-button-default-surface: rgb(83, 80, 73);
   --color-default-accent: rgb(244, 143, 71);
+  --color-default-border: rgb(113, 111, 106);
   --color-default-surface: rgb(51, 50, 48);
   --color-global-accents-marron: rgb(135, 85, 50);
   --color-global-accents-marron-global: rgb(168, 103, 56);
@@ -33,7 +35,5 @@
   --color-primary-text: rgb(255, 253, 248);
   --color-secondary-text: rgb(255, 253, 248);
   --default-surface: rgb(51, 50, 48);
-  --global-accent-orange-global: rgb(244, 143, 71);
-  --global-neutrals-black: rgb(49, 57, 61);
   --global-neutrals-white: rgb(255, 253, 248);
 }

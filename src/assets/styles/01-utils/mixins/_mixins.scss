@@ -4,3 +4,47 @@
 //     font-size: 2rem;
 //     line-height: 1.25;
 // }
+
+@mixin font-family {
+    font-family: Raleway, sans-serif;
+}
+
+@mixin text-body-m {
+    @include font-family;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+}
+
+@mixin text-body-l {
+    @include font-family;
+    @include text-body-m;
+    font-weight: 700;
+}
+
+@mixin text-small-l {
+    @include font-family;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+@mixin text-title-m {
+    @include font-family;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+@mixin text-title-l {
+    @include font-family;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+@mixin text-input {
+    @include font-family;
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: normal;
+}

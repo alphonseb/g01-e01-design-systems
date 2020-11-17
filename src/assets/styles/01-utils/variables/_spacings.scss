@@ -1,3 +1,7 @@
-// :root {
+:root {
+    --base-space: 8px;
 
-// }
+    @for $i from 1 to 22 {
+        --base-space-#{$i}: calc(var(--base-space) * #{$i});
+    }
+}
