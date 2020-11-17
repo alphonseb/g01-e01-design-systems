@@ -1,0 +1,31 @@
+.o-login-form {
+    --background-color: var(--color-default-surface);
+    --border-color: var(--color-default-border);
+    --border-radius-regular: var(--default-radius);
+    --border-radius-big: var(--medium-big-radius);
+    --border-width: var(--default-border-width);
+    --padding: var(--base-space-3);
+    --margin: var(--base-space-1);
+    
+    background-color: var(--background-color);
+    
+    border: solid var(--border-width) var(--border-color);
+    border-radius: var(--border-radius-regular);
+    border-top-right-radius: var(--border-radius-big);
+    
+    width: 640px;
+    
+    &__field-container {
+        padding: var(--padding);
+        margin-bottom: var(--margin);
+        
+        & > div {
+            width: 80%;
+        }
+        
+        & > div:not(:last-child) {
+            margin-bottom: var(--margin);
+        }
+    }
+    
+}
