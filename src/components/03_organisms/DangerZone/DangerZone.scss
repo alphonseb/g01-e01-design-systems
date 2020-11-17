@@ -1,0 +1,33 @@
+.o-danger-zone {
+    --padding: var(--base-space-3);
+    --spacing: var(--base-space-2);
+    --margin-bottom: var(--base-space-1);
+    --background-color: var(--color-alert-surface);
+    --border-color: var(--color-alert-border);
+    --border-width: var(--default-border-width);
+    --border-radius: var(--default-radius);
+    --big-border-radius: var(--medium-big-radius);
+    --title-color: var(--color-primary-text);
+    --body-color: var(--color-secondary-text);
+    
+    background-color: var(--background-color);
+    border: solid var(--border-width) var(--border-color);
+    border-radius: var(--border-radius);
+    border-top-right-radius: var(--big-border-radius);
+    
+    width: 640px;
+    
+    &__text-wrapper {
+        padding: var(--padding);
+        margin-bottom: var(--margin-bottom);
+    }
+    
+    &__title {
+        margin-bottom: var(--spacing);
+        color: var(--title-color);
+    }
+    
+    &__body {
+        color: var(--body-color);
+    }
+}
