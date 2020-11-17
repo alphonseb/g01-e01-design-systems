@@ -1,8 +1,13 @@
 @import '01-utils/mixins/typography';
+@import '01-utils/mixins/flex';
+
 @import '01-utils/variables/colors/light-theme';
 @import '01-utils/variables/colors/bark-theme';
 @import '01-utils/variables/measurements';
 @import '01-utils/variables/spacings';
 @import '01-utils/variables/z-index';
+
 @import '01-utils/fonts-import';
+
+
 @import '02-base/reset';

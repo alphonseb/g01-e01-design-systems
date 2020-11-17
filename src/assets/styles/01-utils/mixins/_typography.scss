@@ -7,6 +7,7 @@
 
 :root {
     --font-primary: Raleway, sans-serif;
+    --color-font-title: var(--color-global-neutrals-black);
 }
 
 @mixin text-body-m {
@@ -34,6 +35,7 @@
     font-family: var(--font-primary);
     font-size: 2rem;
     font-weight: 700;
+    color: var(--color-font-title);
 }
 
 @mixin text-title-l {
