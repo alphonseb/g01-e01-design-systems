@@ -1,0 +1,23 @@
+.a-text--body-m {
+    @include text-body-m;
+}
+
+.a-text--body-l {
+    @include text-body-l;
+}
+
+.a-text--small-l {
+    @include text-small-l;
+}
+
+.a-text--title-m {
+    @include text-title-m;
+}
+
+.a-text--title-l {
+    @include text-title-l;
+}
+
+.a-text--input{
+    @include text-input;
+}
