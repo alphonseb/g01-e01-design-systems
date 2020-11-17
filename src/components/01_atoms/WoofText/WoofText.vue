@@ -14,7 +14,17 @@ export default {
     },
     type: {
       type: String,
-      default: "body-m"
+      default: "body-m",
+      validator(value) {
+        const validTextStyles = [
+          "body-m",
+          "body-l",
+          "small-l",
+          "title-m",
+          "title-l"
+        ];
+        return validTextStyles.includes(value);
+      }
     },
     inputType: {
       type: String,
