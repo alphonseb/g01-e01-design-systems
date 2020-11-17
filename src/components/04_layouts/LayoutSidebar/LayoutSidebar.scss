@@ -1,0 +1,10 @@
+.l-sidebar {
+    --background-color: var(--color-background);
+
+    background-color: var(--background-color);
+    display: flex;
+    
+    & > main {
+        flex: 1;
+    }
+}
