@@ -1,0 +1,12 @@
+.m-form-field {
+    --text-color: var(--color-text-primary);
+    --margin-bottom: var(--base-space);
+    
+    & > label {
+        display: block;
+        margin-bottom: var(--margin-bottom);
+        color: var(--text-color);
+    }
+    
+    width: 100%;
+}
